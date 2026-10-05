@@ -1,6 +1,11 @@
-html, body {
+*{
+    box-sizing: border-box;
+}
+
+html, body, main, footer {
     margin: 0;
     padding: 0;
+    right: 0;
     width: 100%;
 }
 .banner{
@@ -106,11 +111,12 @@ img{
     text-wrap: wrap;
 }
 .footer{
+    margin: 0;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0;
     padding: 10px;
     min-height: 150px;
     background-color: black;
@@ -150,6 +156,8 @@ img{
     color: black;
 }
 #about{
+    margin: 0;
+    padding: 0;
     width: 100%;
     background-color: whitesmoke;
     box-sizing: border-box;
