@@ -1,2 +1,2 @@
 # personal-website-with-html-css
-Personal website showcasing previous work of a calculator using C# as well as personal skills, and contact information
+Personal website showcasing previous works of a blazor webapp and a calculator program developed using C# as well as information about myself, skills, qualifications, and contact information
