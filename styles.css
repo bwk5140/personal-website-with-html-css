@@ -5,8 +5,7 @@
 html, body, main, footer {
     margin: 0;
     padding: 0;
-    right: 0;
-    width: 100%;
+    width: 100vw;
 }
 .banner{
     display: flex;
@@ -150,6 +149,7 @@ img{
 }
 .background-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .background-container p{
